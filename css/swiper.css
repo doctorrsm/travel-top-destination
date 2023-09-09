@@ -1,0 +1,12 @@
+.swiper-slide {
+    visibility: hidden ;
+}
+
+.swiper-slide-next {
+    visibility: initial;
+}
+.swiper-slide-active,
+.swiper-slide-next + .swiper-slide
+{
+    visibility: initial;
+}

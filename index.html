@@ -1,32 +1,495 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
-	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
-    <link rel="stylesheet" href="css/base.css">
+  <meta charset="UTF-8"/>
+  <title>FIGMA | Макеты для верстки — Верстка страницы</title>
+  <meta
+          content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки"
+          name="description"
+  />
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+  <link
+          href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+          rel="stylesheet"
+  />
+
+
+  <link href="css/fonts.css" rel="stylesheet"/>
+  <link href="css/base.css" rel="stylesheet"/>
+  <link href="css/style.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/swiper.css">
 </head>
 <body>
+<!-- Начало: Данный блок удалять нельзя -->
+<div class="maketforfigma">
+  <a href="https://t.me/s/FigmaToHTML" target="_blank">
+    <img height="40" src="img/logo.png" width="142"/>
+  </a>
+  <div>
+    <p>
+      Данная верстка, была реализована пользователем в рамках обучающего
+      телеграм канал
+      <a href="https://t.me/s/FigmaToHTML" target="_blank"
+      >FIGMA | Макеты для верстки</a
+      >
+    </p>
+    <p>
+      При помощи
+      <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank"
+      >Telegram-бота</a
+      >
+      пользователь получил оплату за верстку этого макета.
+    </p>
+  </div>
+</div>
+<!-- Конец -->
 
-    <!-- Начало: Данный блок удалять нельзя -->
-    <div class="maketforfigma">
-        <a href="https://t.me/s/FigmaToHTML" target="_blank">
-            <img src="img/logo.png">
-        </a>
-        <div>
-            <p>
-                Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a href="https://t.me/s/FigmaToHTML" target="_blank">FIGMA | Макеты для верстки</a>
-            </p>
-            <p>
-                При помощи <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">Telegram-бота</a> пользователь получил оплату за верстку этого макета.
-            </p>
+<div class="main">
+  <header class="header">
+    <div class="container header__navigation-wrapper">
+      <a class="header__logo" href="#">
+        <svg
+                fill="none"
+                height="41"
+                viewBox="0 0 142 41"
+                width="142"
+                xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+                  clip-rule="evenodd"
+                  d="M8.55273 4.09787C7.12207 5.09823 5.82837 6.28098 4.70532 7.6124C9.29462 7.18633 15.1252 7.88204 21.8944 11.2667C29.123 14.8809 34.9438 15.0031 38.9948 14.2217C38.6272 13.1088 38.1644 12.0392 37.6163 11.0224C32.979 11.5115 27.034 10.8641 20.1056 7.39998C15.706 5.20018 11.8278 4.29401 8.55273 4.09787ZM34.9074 7.16665C31.2453 3.075 25.9234 0.5 20 0.5C18.2605 0.5 16.5727 0.722107 14.9637 1.13948C17.1429 1.73409 19.4579 2.60399 21.8944 3.82227C26.967 6.35853 31.3464 7.17516 34.9074 7.16665ZM39.8609 18.1281C34.9669 19.0945 28.2088 18.896 20.1056 14.8444C12.53 11.0566 6.50043 11.1043 2.4339 12.008C2.224 12.0546 2.01904 12.1036 1.81903 12.1546C1.28662 13.3125 0.861634 14.5301 0.556702 15.7945C0.882386 15.7075 1.21893 15.6248 1.56616 15.5476C6.49957 14.4513 13.4701 14.4989 21.8944 18.7111C29.4701 22.4989 35.4996 22.4512 39.5662 21.5475C39.7055 21.5166 39.8428 21.4846 39.9778 21.4516C39.9926 21.1363 40 20.819 40 20.5C40 19.6975 39.9528 18.906 39.8609 18.1281ZM39.3248 25.6723C34.4783 26.5196 27.917 26.1944 20.1056 22.2888C12.53 18.501 6.50043 18.5487 2.4339 19.4524C1.53125 19.6529 0.719239 19.8972 0.00293 20.1551C0.000977 20.2698 0 20.3848 0 20.5C0 31.5457 8.95429 40.5 20 40.5C29.2571 40.5 37.0453 34.2109 39.3248 25.6723Z"
+                  fill="url(#paint0_linear_832_821)"
+                  fill-rule="evenodd"
+          />
+          <path
+                  d="M70.736 16.108V12.484H56.456V16.108H61.688V29.5H65.48V16.108H70.736ZM78.5045 17.572C78.2645 17.5 77.9045 17.452 77.5445 17.452C76.5845 17.452 75.0725 17.836 74.4485 19.18V17.572H70.9205V29.5H74.5685V24.292C74.5685 21.916 75.8885 21.052 77.3525 21.052C77.7125 21.052 78.0965 21.076 78.5045 21.172V17.572ZM80.0911 26.212C80.0911 28.108 81.6031 29.836 84.2191 29.836C85.8031 29.836 86.9551 29.164 87.5791 28.156C87.5791 28.972 87.6751 29.404 87.6991 29.5H90.9871C90.9631 29.38 90.8431 28.588 90.8431 27.652V21.82C90.8431 19.372 89.4271 17.212 85.5631 17.212C82.0591 17.212 80.4751 19.468 80.3311 21.172L83.4991 21.82C83.5711 20.932 84.2671 20.068 85.5391 20.068C86.6911 20.068 87.2911 20.668 87.2911 21.364C87.2911 21.772 87.0751 22.084 86.4271 22.18L83.6191 22.612C81.6511 22.9 80.0911 24.1 80.0911 26.212ZM85.1071 27.196C84.0991 27.196 83.6911 26.596 83.6911 25.972C83.6911 25.132 84.2671 24.772 85.0351 24.652L87.2911 24.292V24.82C87.2911 26.668 86.1871 27.196 85.1071 27.196ZM105.321 17.572H101.481L98.9366 24.988L96.1766 17.572H92.2166L97.1126 29.5H100.785L105.321 17.572ZM110.826 29.5V12.124H107.178V29.5H110.826ZM119.518 26.5C118.15 26.5 116.83 25.516 116.83 23.524C116.83 21.508 118.15 20.572 119.518 20.572C120.91 20.572 122.206 21.508 122.206 23.524C122.206 25.54 120.91 26.5 119.518 26.5ZM119.518 17.212C115.965 17.212 113.182 19.828 113.182 23.524C113.182 27.22 115.965 29.86 119.518 29.86C123.094 29.86 125.854 27.22 125.854 23.524C125.854 19.828 123.094 17.212 119.518 17.212ZM127.362 30.172C127.698 32.308 129.882 34.42 133.314 34.42C137.778 34.42 139.698 31.444 139.698 28.012V17.572H136.218V18.844C135.882 18.22 134.85 17.356 132.906 17.356C129.642 17.356 127.362 20.044 127.362 23.188C127.362 26.5 129.738 28.996 132.906 28.996C134.634 28.996 135.666 28.3 136.098 27.652V28.204C136.098 30.364 134.97 31.252 133.146 31.252C131.778 31.252 130.818 30.412 130.578 29.26L127.362 30.172ZM133.578 25.828C132.114 25.828 131.01 24.82 131.01 23.188C131.01 21.556 132.21 20.548 133.578 20.548C134.946 20.548 136.122 21.556 136.122 23.188C136.122 24.82 135.066 25.828 133.578 25.828Z"
+                  fill="#191825"
+          />
+          <defs>
+            <linearGradient
+                    gradientUnits="userSpaceOnUse"
+                    id="paint0_linear_832_821"
+                    x1="36"
+                    x2="-3.73321"
+                    y1="43.7"
+                    y2="36.0931"
+            >
+              <stop stop-color="#5D50C6"/>
+              <stop offset="1" stop-color="#F85E9F"/>
+            </linearGradient>
+          </defs>
+        </svg>
+      </a>
+
+      <nav class="header__menu">
+        <ul class="menu">
+          <li class="menu__item">
+            <a class="menu__link menu__link--active" href="#">Home</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">Discover</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">Special Deals</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__auth">
+        <a class="header__link" href="#">Log in</a>
+        <a class="btn" href="#">Sign up</a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__text-wrapper">
+          <div class="hero__badge">
+            <span class="badge">Explore the world!</span>
+          </div>
+          <h1 class="hero__title">
+            Travel
+            <span class="hero__colored-text">top destination</span> of the
+            world
+          </h1>
+          <p class="hero__description">
+            We always make our customer happy by providing as many choices
+            as possible
+          </p>
+          <div class="hero__actions">
+            <a class="btn" href="#">Get Started</a>
+            <a class="btn btn--icon" href="#"
+            ><span class="btn__icon"
+            ><svg
+                    fill="none"
+                    height="25"
+                    viewBox="0 0 24 25"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+            >
+                      <path
+                              d="M11.9688 2.5C6.44875 2.5 1.96875 6.98 1.96875 12.5C1.96875 18.02 6.44875 22.5 11.9688 22.5C17.4888 22.5 21.9688 18.02 21.9688 12.5C21.9688 6.98 17.4988 2.5 11.9688 2.5ZM14.9688 14.73L12.0687 16.4C11.7087 16.61 11.3088 16.71 10.9187 16.71C10.5188 16.71 10.1287 16.61 9.76875 16.4C9.04875 15.98 8.61875 15.24 8.61875 14.4V11.05C8.61875 10.22 9.04875 9.47 9.76875 9.05C10.4888 8.63 11.3487 8.63 12.0787 9.05L14.9787 10.72C15.6987 11.14 16.1287 11.88 16.1287 12.72C16.1287 13.56 15.6987 14.31 14.9688 14.73Z"
+                              fill="#5D50C6"
+                      /></svg></span
+            >Watch Demo</a
+            >
+          </div>
         </div>
-    </div>
-    <!-- Конец -->
+        <div class="hero__images-wrapper">
+          <div class="hero__left-images-column">
+            <img
+                    alt="Красивое синее море на берегу города."
+                    src="img/hero/sea@1x.jpg"
+                    srcset="img/hero/sea@1x.jpg 1x, img/hero/sea@2x.jpg 2x"
+            />
+            <img
+                    alt="Девушка-турист сидит в горах солнечным днём."
+                    src="img/hero/girl@1x.jpg"
+                    srcset="img/hero/girl@1x.jpg 1x, img/hero/girl@2x.jpg 2x"
+            />
+            <span class="hero__send-icon"> </span>
+          </div>
+          <div class="hero__right-images-column">
+            <img
+                    alt="Туристка в мегаполисе фотографирует на телефон небоскрёб."
+                    src="img/hero/tourist@1x.jpg"
+                    srcset="
+                    img/hero/tourist@1x.jpg 1x,
+                    img/hero/tourist@2x.jpg 2x
+                  "
+            />
+            <span class="hero__add-user-icon"> </span>
+            <span class="hero__top-places-icon"> </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="company-logos">
+      <div class="container company-logos__grid">
+        <div class="company-logos__item">
+          <img
+                  alt="tripadvisor."
+                  src="img/brands/tripadvisor@1x.png"
+                  srcset="
+                  img/brands/tripadvisor@1x.png 1x,
+                  img/brands/tripadvisor@2x.png 2x
+                "
 
-    <div class="main">
-        В данном блоке размещается верстка
-    </div>
+          />
+        </div>
+        <div class="company-logos__item">
+          <img
+                  alt="expedia."
+                  src="img/brands/expedia@1x.png"
+                  srcset="
+                  img/brands/expedia@1x.png 1x,
+                  img/brands/expedia@2x.png 2x
+                "
+          />
+        </div>
+        <div class="company-logos__item">
+          <img
+                  alt="airnb."
+                  src="img/brands/booking@1x.png"
+                  srcset="
+                  img/brands/booking@1x.png 1x,
+                  img/brands/booking@2x.png 2x
+                "
+          />
+
+
+        </div>
+        <div class="company-logos__item">
+          <img
+                  alt="airnb."
+                  src="img/brands/airnb@1x.png"
+                  srcset="img/brands/airnb@1x.png 1x, img/brands/airnb@2x.png 2x"
+          />
+        </div>
+        <div class="company-logos__item">
+          <img
+                  alt="airnb."
+                  src="img/brands/rbitz@1x.png"
+                  srcset="img/brands/rbitz@1x.png 1x, img/brands/rbitz@2x.png 2x"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="services section">
+      <div class="container services__grid">
+        <div class="services__head">
+          <h2 class="section__subtitle">Services</h2>
+          <p class="section__title">Our top value categories for you</p>
+        </div>
+        <div class="services__cards swiper">
+          <div class="swiper-wrapper">
+            <div class="icon-card swiper-slide">
+                            <span
+                                    class="icon-card__icon icon-card__icon--destination"
+                            ></span>
+              <h3 class="icon-card__title">Best Tour Guide</h3>
+              <p>
+                What looked like a small patch of purple grass, above five
+                feet.
+              </p>
+            </div>
+            <div class="icon-card swiper-slide">
+              <span class="icon-card__icon icon-card__icon--booking"></span>
+              <h3 class="icon-card__title">Easy Booking</h3>
+              <p>Square, was moving across the sand in their direction.</p>
+            </div>
+            <div class="icon-card swiper-slide">
+              <span class="icon-card__icon icon-card__icon--weather"></span>
+              <h3 class="icon-card__title">Weather Forecast</h3>
+              <p>
+                What looked like a small patch of purple grass, above five
+                feet.
+              </p>
+            </div>
+            <div class="icon-card swiper-slide">
+              <span class="icon-card__icon icon-card__icon--weather"></span>
+              <h3 class="icon-card__title">Weather Forecast</h3>
+              <p>
+                What looked like a small patch of purple grass, above five
+                feet.
+              </p>
+            </div>
+            <div class="icon-card swiper-slide">
+              <span class="icon-card__icon icon-card__icon--weather"></span>
+              <h3 class="icon-card__title">Weather Forecast</h3>
+              <p>
+                What looked like a small patch of purple grass, above five
+                feet.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="destination">
+      <div class="container">
+        <div class="destination__head-wrapper">
+          <div class="destination__head">
+            <h2 class="section__subtitle">Top Destination</h2>
+            <p class="section__title">Explore top destination</p>
+          </div>
+          <div class="destination__slider-controls">
+            <button type="button" class="destination__slider-button-prev">
+              <svg fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.41431 11H20.0001C20.5524 11 21.0001 11.4477 21.0001 12C21.0001 12.5523 20.5524 13 20.0001 13H6.41431L9.65695 16.2426C10.0475 16.6331 10.0475 17.2663 9.65695 17.6568C9.26642 18.0474 8.63326 18.0474 8.24273 17.6568L4.00009 13.4142C3.21904 12.6331 3.21904 11.3668 4.00009 10.5858L8.24273 6.34313C8.63326 5.9526 9.26642 5.9526 9.65695 6.34313C10.0475 6.73365 10.0475 7.36681 9.65695 7.75734L6.41431 11Z"
+                      fill="#191825"/>
+              </svg>
+            </button>
+            <button type="button" class="destination__slider-button-next">
+              <svg fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M17.5857 11H3.99991C3.44762 11 2.99991 11.4477 2.99991 12C2.99991 12.5523 3.44762 13 3.99991 13H17.5857L14.3431 16.2426C13.9525 16.6331 13.9525 17.2663 14.3431 17.6568C14.7336 18.0474 15.3667 18.0474 15.7573 17.6568L19.9999 13.4142C20.781 12.6331 20.781 11.3668 19.9999 10.5858L15.7573 6.34313C15.3667 5.9526 14.7336 5.9526 14.3431 6.34313C13.9525 6.73365 13.9525 7.36681 14.3431 7.75734L17.5857 11Z"
+                      fill="white"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+
+
+        <div class="destination__slider swiper">
+          <div class="swiper-wrapper">
+            <div class="slider-card swiper-slide">
+              <div class="slider-card__image-wrapper">
+                <img
+                        alt="Paradise beach."
+                        src="img/destination/beach@1x.jpg"
+                        srcset="img/destination/beach@1x.jpg 1x, img/destination/beach@2x.jpg 2x"
+                />
+              </div>
+              <div class="slider-card__text-wrapper">
+                <h3 class="slider-card__title">Paradise Beach, Bantayan Island</h3>
+                <div class="slider-card__price">$550.16</div>
+                <p class="slider-card__country">Rome, Italy</p>
+                <p class="slider-card__rating">4.8</p>
+              </div>
+            </div>
+            <div class="slider-card swiper-slide">
+              <div class="slider-card__image-wrapper">
+                <img
+                        alt="Ocean fish."
+                        src="img/destination/fish@1x.jpg"
+                        srcset="img/destination/fish@1x.jpg 1x, img/destination/fish@2x.jpg 2x"
+                />
+              </div>
+              <div class="slider-card__text-wrapper">
+                <h3 class="slider-card__title">Ocean with full of Colors</h3>
+                <div class="slider-card__price">$20.99</div>
+                <p class="slider-card__country">Maldives</p>
+                <p class="slider-card__rating">4.5</p>
+              </div>
+            </div>
+            <div class="slider-card swiper-slide">
+              <div class="slider-card__image-wrapper">
+                <img
+                        alt="airnb."
+                        src="img/destination/mountains@1x.jpg"
+                        srcset="img/destination/mountains@1x.jpg 1x, img/destination/mountains@2x.jpg 2x"
+                />
+              </div>
+              <div class="slider-card__text-wrapper">
+                <h3 class="slider-card__title">Mountain View, Above the cloud</h3>
+                <div class="slider-card__price">$150.99</div>
+                <p class="slider-card__country">United Arab Emeries </p>
+                <p class="slider-card__rating">5.0</p>
+              </div>
+            </div>
+            <div class="slider-card swiper-slide">
+              <div class="slider-card__image-wrapper">
+                <img
+                        alt="Paradise beach."
+                        src="img/destination/beach@1x.jpg"
+                        srcset="img/destination/beach@1x.jpg 1x, img/destination/beach@2x.jpg 2x"
+                />
+              </div>
+              <div class="slider-card__text-wrapper">
+                <h3 class="slider-card__title">Paradise Beach, Bantayan Island</h3>
+                <div class="slider-card__price">$550.16</div>
+                <p class="slider-card__country">Rome, Italy</p>
+                <p class="slider-card__rating">4.8</p>
+              </div>
+            </div>
+            <div class="slider-card swiper-slide">
+              <div class="slider-card__image-wrapper">
+                <img
+                        alt="Ocean fish."
+                        src="img/destination/fish@1x.jpg"
+                        srcset="img/destination/fish@1x.jpg 1x, img/destination/fish@2x.jpg 2x"
+                />
+              </div>
+              <div class="slider-card__text-wrapper">
+                <h3 class="slider-card__title">Ocean with full of Colors</h3>
+                <div class="slider-card__price">$20.99</div>
+                <p class="slider-card__country">Maldives</p>
+                <p class="slider-card__rating">4.5</p>
+              </div>
+            </div>
+            <div class="slider-card swiper-slide">
+              <div class="slider-card__image-wrapper">
+                <img
+                        alt="airnb."
+                        src="img/destination/mountains@1x.jpg"
+                        srcset="img/destination/mountains@1x.jpg 1x, img/destination/mountains@2x.jpg 2x"
+                />
+              </div>
+              <div class="slider-card__text-wrapper">
+                <h3 class="slider-card__title">Mountain View, Above the cloud</h3>
+                <div class="slider-card__price">$150.99</div>
+                <p class="slider-card__country">United Arab Emeries </p>
+                <p class="slider-card__rating">5.0</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <section class="point">
+      <div class="container">
+        <div class="point__head">
+          <h2 class="section__subtitle">Travel Point</h2>
+          <p class="section__title">We helping you find your dream location</p>
+          <div class="section__description">Contrary to popular belief, Lorem Ipsum is not simply random text.
+            It has
+            roots in a piece of classical Latin literature from 45 BC.
+          </div>
+          <ul class="point__stats">
+            <li class="point__stats-item">
+              <span class="point__stats-value">500+</span>
+              <div class="point__stats-title">Holiday Package</div>
+            </li>
+            <li class="point__stats-item">
+              <span class="point__stats-value">100</span>
+              <div class="point__stats-title">Luxury Hotel</div>
+            </li>
+            <li class="point__stats-item">
+              <span class="point__stats-value">7</span>
+              <div class="point__stats-title">Premium Airlines</div>
+            </li>
+            <li class="point__stats-item">
+              <span class="point__stats-value">2k+</span>
+              <div class="point__stats-title">Happy Customer</div>
+            </li>
+          </ul>
+        </div>
+        <div class="point__promo-image-wrapper">
+          <img
+                  alt="Туристка сидит на чемоданах."
+                  src="img/sections/point@1x.png"
+                  srcset="img/sections/point@1x.png 1x, img/sections/point@1x.png 2x"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="features ">
+      <div class="container">
+        <div class="features__head">
+          <h2 class="section__subtitle">Key features</h2>
+          <p class="section__title">We offer best services</p>
+          <p class="section__description">
+            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+            classical Latin literature
+            from 45 BC.
+          </p>
+        </div>
+        <div class="features__image-wrapper">
+          <img
+                  alt="Коллаж из двух изображений. Древняя церковь и серфингист."
+                  src="img/sections/features@1x.png"
+                  srcset="img/sections/features@1x.png 1x, img/sections/features@2x.png 2x"
+          />
+        </div>
+        <ul class="features__list">
+          <li class="features__item">
+            <h3 class="features__item-title">We offer best services</h3>
+            <p class="features__item-text">Lorem Ipsum is not simply random text</p>
+          </li>
+          <li class="features__item">
+            <h3 class="features__item-title">Schedule your trip</h3>
+            <p class="features__item-text">It has roots in a piece of classical</p>
+          </li>
+          <li class="features__item">
+            <h3 class="features__item-title">Get discounted coupons</h3>
+            <p class="features__item-text">Lorem Ipsum is not simply random text</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <script type="module">
+      import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.mjs'
+
+      const swiper = new Swiper('.services__cards', {
+          slidesPerView: 'auto',
+          spaceBetween: 21,
+          pagination: true,
+      })
+
+      const destinationSlider = new Swiper('.destination__slider', {
+             slidesPerView: 3,
+              loop: true,
+              navigation: {
+                  nextEl: '.destination__slider-button-next',
+                  prevEl: '.destination__slider-button-prev',
+              },
+              spaceBetween: 31,
+      },
+
+      )
+  </script>
+
+</div>
 
 </body>
 </html>

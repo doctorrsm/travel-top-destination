@@ -11,6 +11,10 @@
     /*outline:    1px solid green;*/
 }
 
+section {
+    outline: 1px solid red;
+}
+
 /* *::before {
     content: attr(class);
     position: absolute;
@@ -376,6 +380,7 @@ img {
     font-style:  normal;
     line-height: 120%; /* 52.8px */
     margin-top:  0;
+    margin-bottom: 28px;
     color:       #191825;
 }
 
@@ -386,6 +391,7 @@ img {
     font-style:  normal;
     line-height: 160%; /* 28.8px */
     color:       #8b8b91;
+    margin-bottom: 67px;
 }
 
 .icon-card {
@@ -467,7 +473,7 @@ img {
 
 .destination {
     padding-top: 111px;
-    padding-bottom: 111px;
+    padding-bottom: 60px;
 }
 
 .destination__head-wrapper {
@@ -492,7 +498,13 @@ img {
 .destination__slider {
     position:   relative;
     display:    flex;
-    margin-top: 65px;
+    margin-top: 60px;
+    overflow: initial;
+}
+
+.destination__slider-wrapper {
+    margin-bottom: 65px;
+    overflow: initial;
 }
 
 .destination__slider-controls {
@@ -589,11 +601,76 @@ img {
     background-position: center;
 }
 
+.point__grid {
+    display: grid;
+    grid-template-columns: 1fr 445px;
+    gap: 42px;
+    position: relative;
+}
 
+.point__grid::before {
+    content: '';
+    position: absolute;
+    width: 50vw;
+    height: 550px;
+    border-radius: 0px 500px 500px 0px;
+    background: #FACD49;
+    top: 133px;
+    right: 571px;
+
+}
+
+.point__promo-image-wrapper {
+    position: relative;
+}
+
+.point__promo-discounted-icon {
+    position: absolute;
+    top: 19.5%;
+    right: 0;
+    display: inline-block;
+    width: 302px;
+    height: 72px;
+    background-repeat: no-repeat;
+    background-size: initial;
+    background-position: 0;
+    background-image: url('../img/svg/labels/discounted.svg');
+    border-radius: 100px;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.03), 0px 15px 34px 0px rgba(0, 0, 0, 0.03), 0px 62px 62px 0px rgba(0, 0, 0, 0.02), 0px 139px 83px 0px rgba(0, 0, 0, 0.01), 0px 246px 99px 0px rgba(0, 0, 0, 0.00), 0px 385px 108px 0px rgba(0, 0, 0, 0.00);
+    z-index: 1;
+}
+
+.point__promo-image-wrapper img {
+    position: relative;
+    right: 36px;
+    top: 37px;
+    transform: scale(1.1);
+    z-index: 0;
+}
+
+.point__head {
+    position: relative;
+}
+
+.point__head-icon {
+    position: absolute;
+    right: -84px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-repeat: no-repeat;
+    border-radius: 100px;
+    background-color: #FACD49;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.03), 0px 15px 34px 0px rgba(0, 0, 0, 0.03), 0px 62px 62px 0px rgba(0, 0, 0, 0.02), 0px 139px 83px 0px rgba(0, 0, 0, 0.01), 0px 246px 99px 0px rgba(0, 0, 0, 0.00), 0px 385px 108px 0px rgba(0, 0, 0, 0.00);
+    width: 112px;
+    height: 112px;
+    background-image: url('../img/svg/icons/ticket.svg');
+
+}
 .point__stats {
     display:               grid;
     grid-template-columns: 1fr 1fr;
-    gap:                   32px;
+    gap:                   32px 30px;
+    padding: 0;
 }
 
 .point__stats-item {
@@ -601,7 +678,7 @@ img {
     align-items:    center;
     flex:           1 0 0;
     flex-direction: column;
-    padding:        32px;
+    padding:        32px 30px;
     border:         1px solid #e8e8ea;
     border-radius:  32px;
     background:     #ffffff;
@@ -626,17 +703,45 @@ img {
     color:       #191825;
 }
 
+.features {
+    padding-top: 105px;
+}
+
+.features__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 42px;
+}
+
 .features__list {
     margin:     0;
+    padding: 0;
     list-style: none;
+    margin-left: 10px;
 }
 
 .features__item {
-    padding:       32px;
+    padding:       20px;
+    padding-top: 23px;
+    padding-bottom: 30px;
     border-radius: 32px;
     background:    #ffffff;
+    background-repeat: no-repeat;
+    padding-left: 154px;
+    background-position: top 32px left 23px;
 }
 
+.features__item--point {
+    background-image: url('../img/svg/icons/point.svg');
+}
+
+.features__item--calendar {
+    background-image: url('../img/svg/icons/calendar.svg');
+}
+
+.features__item--coupon {
+    background-image: url('../img/svg/icons/coupon.svg');
+}
 .features__item:nth-child(2n) {
 
     border: 1px solid rgba(25, 24, 37, 0.10);
@@ -650,6 +755,7 @@ img {
     font-style:  normal;
     line-height: 120%; /* 27.6px */
     color:       #191825;
+    margin-bottom: 10px;
 }
 
 .features__item-text {
@@ -659,5 +765,10 @@ img {
     font-style:  normal;
     line-height: 160%; /* 28.8px */
     color:       #8c8c92;
+    margin-top: 0;
+}
+
+.features__image-wrapper {
+    padding-top: 73px;
 }
 

@@ -298,7 +298,7 @@
 
 
         <div class="destination__slider swiper">
-          <div class="swiper-wrapper">
+          <div class="swiper-wrapper destination__slider-wrapper">
             <div class="slider-card swiper-slide">
               <div class="slider-card__image-wrapper">
                 <img
@@ -396,7 +396,16 @@
       </div>
     </section>
     <section class="point">
-      <div class="container">
+      <div class="container point__grid">
+        <div class="point__promo-image-wrapper">
+          <span class="point__promo-discounted-icon"></span>
+
+          <img
+                  alt="Туристка сидит на чемоданах."
+                  src="img/sections/point@1x.png"
+                  srcset="img/sections/point@1x.png 1x, img/sections/point@1x.png 2x"
+          />
+        </div>
         <div class="point__head">
           <h2 class="section__subtitle">Travel Point</h2>
           <p class="section__title">We helping you find your dream location</p>
@@ -422,26 +431,36 @@
               <div class="point__stats-title">Happy Customer</div>
             </li>
           </ul>
-        </div>
-        <div class="point__promo-image-wrapper">
-          <img
-                  alt="Туристка сидит на чемоданах."
-                  src="img/sections/point@1x.png"
-                  srcset="img/sections/point@1x.png 1x, img/sections/point@1x.png 2x"
-          />
+          <span class="point__head-icon"></span>
         </div>
       </div>
     </section>
     <section class="features ">
-      <div class="container">
-        <div class="features__head">
-          <h2 class="section__subtitle">Key features</h2>
-          <p class="section__title">We offer best services</p>
-          <p class="section__description">
-            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-            classical Latin literature
-            from 45 BC.
-          </p>
+      <div class="container features__grid">
+        <div class="features__text-wrapper">
+          <div class="features__head">
+            <h2 class="section__subtitle">Key features</h2>
+            <p class="section__title">We offer best services</p>
+            <p class="section__description">
+              Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+              classical Latin literature
+              from 45 BC.
+            </p>
+          </div>
+          <ul class="features__list">
+            <li class="features__item features__item--point">
+              <h3 class="features__item-title">We offer best services</h3>
+              <p class="features__item-text">Lorem Ipsum is not simply random text</p>
+            </li>
+            <li class="features__item features__item--calendar">
+              <h3 class="features__item-title">Schedule your trip</h3>
+              <p class="features__item-text">It has roots in a piece of classical</p>
+            </li>
+            <li class="features__item features__item--coupon">
+              <h3 class="features__item-title">Get discounted coupons</h3>
+              <p class="features__item-text">Lorem Ipsum is not simply random text</p>
+            </li>
+          </ul>
         </div>
         <div class="features__image-wrapper">
           <img
@@ -450,20 +469,6 @@
                   srcset="img/sections/features@1x.png 1x, img/sections/features@2x.png 2x"
           />
         </div>
-        <ul class="features__list">
-          <li class="features__item">
-            <h3 class="features__item-title">We offer best services</h3>
-            <p class="features__item-text">Lorem Ipsum is not simply random text</p>
-          </li>
-          <li class="features__item">
-            <h3 class="features__item-title">Schedule your trip</h3>
-            <p class="features__item-text">It has roots in a piece of classical</p>
-          </li>
-          <li class="features__item">
-            <h3 class="features__item-title">Get discounted coupons</h3>
-            <p class="features__item-text">Lorem Ipsum is not simply random text</p>
-          </li>
-        </ul>
       </div>
     </section>
   </main>

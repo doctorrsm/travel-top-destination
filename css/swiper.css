@@ -1,3 +1,7 @@
+:root {
+    --swiper-pagination-bullet-horizontal-gap: 12px;
+}
+
 .swiper-slide {
     visibility: hidden ;
 }
@@ -9,4 +13,16 @@
 .swiper-slide-next + .swiper-slide
 {
     visibility: initial;
+}
+
+.swiper-pagination-bullet {
+
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    background-color: #B1B1B3;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #F85E9F;
 }
